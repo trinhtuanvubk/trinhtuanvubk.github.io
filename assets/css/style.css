@@ -801,6 +801,19 @@ main {
   line-height: 1.6;
 }
 
+.timeline-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.timeline-meta .location {
+  color: var(--light-gray-70);
+  font-weight: var(--fw-400);
+}
+
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
