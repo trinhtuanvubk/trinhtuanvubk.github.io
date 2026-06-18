@@ -842,6 +842,14 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text a {
+  display: inline;
+  color: hsl(168, 76%, 45%);
+  font-weight: var(--fw-400);
+}
+
+.timeline-text a:hover { text-decoration: underline; }
+
 
 /**
  * skills 
