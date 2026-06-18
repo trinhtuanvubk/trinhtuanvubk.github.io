@@ -1,187 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tuan Vu Trinh — AI Engineer</title>
-  <meta name="description" content="Tuan Vu Trinh — AI / Speech / Computer Vision Engineer." />
-  <link rel="shortcut icon" href="./assets/images/avatar.jpeg" type="image/x-icon" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuan-Vu Trinh</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/avatar.jpeg" type="image/x-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <img class="avatar" src="./assets/images/avatar.jpeg" alt="Tuan Vu Trinh" />
-      <h1>Tuan Vu Trinh</h1>
-      <div class="role">AI Engineer · Speech &amp; Computer Vision</div>
-      <p class="bio">
-        AI Engineer with experience across speech (ASR, TTS, voice conversion),
-        computer vision, and 3D generation — from research and model training to
-        optimized deployment with Triton, ONNX, and TensorRT.
-      </p>
-      <div class="links">
-        <a href="mailto:vutuantrinh2000@gmail.com">Email</a>
-        <a href="https://github.com/trinhtuanvubk" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/tuanvutrinh" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="./trinhtuanvu_CV_6_2026.pdf" target="_blank" rel="noopener">CV</a>
-      </div>
-    </header>
-
-    <section>
-      <h2>Experience</h2>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">DLMS</span>
-          <span class="date">Jun 2025 — Present</span>
+  <!--
+    - #MAIN
+  -->
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpeg" alt="Tuan-Vu Trinh" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Tuan-Vu Trinh">Tuan-Vu Trinh</h1>
+          <p class="title">Data Scientist | AI Engineer</p>
         </div>
-        <div class="sub">AI Engineer · Remote</div>
-        <ul>
-          <li>Operate multiple AI nodes providing AI services to a decentralized network.</li>
-          <li>Optimized the voice-to-voice generation pipeline for latency, efficiency, and cost.</li>
-          <li>Deployed and scaled text-to-3D and image-to-3D with Hunyuan.</li>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:vutuantrinh2000@gmail.com" class="contact-link">vutuantrinh2000@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hanoi, Vietnam</address>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">CV</p>
+              <a href="./trinhtuanvu_CV_6_2026.pdf" target="_blank" rel="noopener" class="contact-link">Download CV (PDF)</a>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/tuanvutrinh.fb/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <!-- <li class="social-item">
+            <a href="https://twitter.com/shiroinekotfs" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+          <li class="social-item">
+            <a href="https://www.instagram.com/vutrinhbk/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tuanvutrinh/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <!-- <li class="social-item">
+            <a href="https://www.youtube.com/@shiroinekotfs" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li> -->
+          <li class="social-item">
+            <a href="https://github.com/trinhtuanvubk" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
         </ul>
       </div>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">One Mount Group</span>
-          <span class="date">Apr 2024 — Jun 2025</span>
-        </div>
-        <div class="sub">Data Scientist · Hanoi, Vietnam</div>
-        <ul>
-          <li>Built a pipeline for crawling, cleaning, diarization and splitting YouTube audio to train Vietnamese TTS with XTTS.</li>
-          <li>Developed a lip-sync avatar using SyncTalk for Virtual Human.</li>
-          <li>Built Open-Vocabulary 3D Segmentation for the Interior project.</li>
-          <li>Developed and deployed object-cleaning and upscaling pipelines for interior images on Replicate.</li>
+    </aside>
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
         </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">Freelancer</span>
-          <span class="date">Mar 2023 — Dec 2024</span>
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <pre>Hello there! I'm Tuan-Vu Trinh </pre>
+          <br>
+          <p>- I'm an enthusiastic AI engineer with a deep fascination for leveraging artificial intelligence to solve real-world problems.</p>
+          <p>- Experienced across speech (ASR, TTS, voice conversion), computer vision, and 3D generation — from research and model training to optimized deployment with Triton, ONNX, and TensorRT.</p>
+          <!-- <p>🌍 Mostly, I spend a lot of time flying in Flight Simulators. Flying in it makes me feel at peace.</p> -->
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">My focus stays on</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Coding</h4>
+                <p class="service-item-text">
+                  I like coding, I like all programming languages, and I want to learn a lot of technology to be able to create useful products for the world.  
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-finance.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Finance</h4>
+                <p class="service-item-text">
+                  I want to learn about the workings of the financial world. I want to immerse myself in the flow of money so that I can make money from it.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
-        <div class="sub">AI Engineer · Remote, UK</div>
-        <ul>
-          <li>Deployed a VoiceBot system (TTS, ASR, Intent Classification, …) using Triton Server with Docker.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">ETC Technology Systems JSC</span>
-          <span class="date">Apr 2023 — Apr 2024</span>
-        </div>
-        <div class="sub">AI Engineer · Hanoi, Vietnam</div>
-        <ul>
-          <li>Developed CV algorithms for ITS: vehicle detection, recognition and tracking.</li>
-          <li>Built Android, C++ and C# SDKs for face detection and face validation.</li>
-          <li>Built an OCR service to extract information from Vietnamese ID cards.</li>
-          <li>Implemented an OCR model for Vietnamese handwritten text.</li>
-          <li>Optimized and deployed models with ONNX, TFLite and NCNN.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">FTECH-AI</span>
-          <span class="date">Jul 2021 — Apr 2023</span>
-        </div>
-        <div class="sub">Speech Engineer · Hanoi, Vietnam</div>
-        <ul>
-          <li>Developed NLP/Speech tasks: Keyword Spotting, ASR, TTS, Voice Conversion, NER.</li>
-          <li>Applied speech models to Pronunciation Assessment (IOE), Audio Book and Virtual Human.</li>
-          <li>Served models with Docker, ONNX, TensorRT and Triton Server.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-head">
-          <span class="title">Sensor Laboratory — SEEE</span>
-          <span class="date">Oct 2020 — Apr 2022</span>
-        </div>
-        <div class="sub">Speech Researcher Intern · HUST</div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <div class="item">
-        <div class="item-head">
-          <span class="title">Hanoi University of Science and Technology</span>
-          <span class="date">2018 — 2022</span>
-        </div>
-        <ul>
-          <li>Overall GPA: 3.59 / 4.0</li>
-          <li>Best Graduation Project Council, School of Electrical and Electronic Engineering (10/10).</li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>Technical Skills</h2>
-      <div class="skills">
-        <div class="skill-row">
-          <span class="label">Languages</span>
-          <div class="tags">
-            <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span>
+      </article>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
           </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Frameworks</span>
-          <div class="tags">
-            <span class="tag">PyTorch</span><span class="tag">HuggingFace</span><span class="tag">Paddle</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Hanoi University of Science and Technology</h4>
+              <span>2018 - 2022</span>
+              <p class="timeline-text">
+                Bachelor of Control Engineering and Automation. Overall GPA: 3.59 / 4.0. Best Graduation Project Council, School of Electrical and Electronic Engineering (10/10).
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
           </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Speech</span>
-          <div class="tags">
-            <span class="tag">XTTS</span><span class="tag">Whisper</span><span class="tag">Wav2Vec2</span><span class="tag">VITS</span><span class="tag">HifiGan</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Engineer — DLMS</h4>
+              <span>June 2025 - Present</span>
+              <p class="timeline-text">
+                Remote. Operating multiple AI nodes providing AI services to a decentralized network; optimized the voice-to-voice generation pipeline for latency, efficiency and cost; deployed and scaled text-to-3D and image-to-3D with Hunyuan.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Scientist — One Mount Group</h4>
+              <span>April 2024 - June 2025</span>
+              <p class="timeline-text">
+                Hanoi, Vietnam. Built a pipeline for crawling, cleaning, diarization and splitting YouTube audio to train Vietnamese TTS with XTTS; developed a lip-sync avatar with SyncTalk for Virtual Human; built Open-Vocabulary 3D Segmentation for the Interior project; developed and deployed object-cleaning and upscaling pipelines for interior images on Replicate.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Engineer — Freelancer</h4>
+              <span>March 2023 - Dec 2024</span>
+              <p class="timeline-text">
+                Remote, UK. Deployed a VoiceBot system (TTS, ASR, Intent Classification, …) using Triton Server with Docker.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Engineer — ETC Technology Systems JSC</h4>
+              <span>April 2023 - April 2024</span>
+              <p class="timeline-text">
+                Hanoi, Vietnam. Developed CV algorithms for ITS (vehicle detection, recognition and tracking); built Android, C++ and C# SDKs for face detection and validation; built an OCR service for Vietnamese ID cards and a model for Vietnamese handwritten text; optimized and deployed models with ONNX, TFLite and NCNN.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Speech Engineer — FTECH-AI</h4>
+              <span>July 2021 - April 2023</span>
+              <p class="timeline-text">
+                Hanoi, Vietnam. Developed NLP/Speech tasks (Keyword Spotting, ASR, TTS, Voice Conversion, NER); applied speech models to Pronunciation Assessment (IOE), Audio Book and Virtual Human; served models with Docker, ONNX, TensorRT and Triton Server.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Speech Researcher Intern — Sensor Laboratory, SEEE</h4>
+              <span>October 2020 - April 2022</span>
+              <p class="timeline-text">
+                Hanoi University of Science and Technology.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <!-- <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Coding</h5>
+                <data value="80">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">55%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Leading skill</h5>
+                <data value="90">30%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Communicate</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section> -->
+      </article>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Computer Vision</span>
-          <div class="tags">
-            <span class="tag">LLaVA</span><span class="tag">YOLO</span><span class="tag">SVTR</span><span class="tag">MobileNet</span><span class="tag">UNet</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Deployment</span>
-          <div class="tags">
-            <span class="tag">AWS EC2</span><span class="tag">FastAPI</span><span class="tag">Triton</span><span class="tag">gRPC</span><span class="tag">Streamlit</span><span class="tag">Gradio</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Database</span>
-          <div class="tags">
-            <span class="tag">MongoDB</span><span class="tag">MinIO</span><span class="tag">PostgreSQL</span>
-          </div>
-        </div>
-        <div class="skill-row">
-          <span class="label">Other</span>
-          <div class="tags">
-            <span class="tag">Docker</span><span class="tag">Android Studio</span><span class="tag">NeMo</span><span class="tag">Linux</span><span class="tag">Git</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Achievements</h2>
-      <ul class="achievements">
-        <li><strong>Top 5 — Kalapa Challenge</strong> <span class="date">(Jan 2024)</span><br />Top 5 private leaderboard, Vietnamese Handwritten Text Recognition.</li>
-        <li><strong>PTSC Scholarship</strong> <span class="date">(Nov 2021)</span><br />PetroVietnam scholarship for excellent study.</li>
-        <li><strong>Study Encouragement Scholarship</strong> <span class="date">(Dec 2020)</span><br />For top students of SEE with excellent achievements.</li>
-        <li><strong>Study Support Scholarship</strong> <span class="date">(Feb 2019)</span><br />For students with excellent results and difficult conditions.</li>
-        <li><strong>VIDEC Group Scholarship</strong> <span class="date">(2018 — 2022)</span><br />100% scholarship for top 3 students at Thuong Tin High School.</li>
-        <li><strong>Third Prize — City-level Physics</strong> <span class="date">(Feb 2018)</span><br />Hanoi Department of Education and Training annual contest.</li>
-      </ul>
-    </section>
-
-    <footer>
-      © 2026 Tuan Vu Trinh · Built with plain HTML &amp; CSS
-    </footer>
-  </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Orizon</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fundo</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Brawlhalla</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">DSM.</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">MetaSpark</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Summary</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Manager</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
